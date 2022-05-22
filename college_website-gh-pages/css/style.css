@@ -15,7 +15,7 @@
 /***************
 *General Styles
 ****************/
-
+@import "bootstrap";
 .primary-color{
 	color:rgb(15,108,107) !important;
 }
@@ -792,4 +792,20 @@ footer .address{
 	.gallery-design .grid-item {
 		width: 25%;
 	}
+}
+.faculty-link{
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+.faculty-link a{
+	padding: 15px 15px;
+	color: black; 
+	text-decoration: none;
+	border-bottom: 5px solid transparent;
+}
+.faculty-link a:hover{
+	border-color: rgb(38, 72, 38);
+}
+#active{
+	border-bottom: 5px solid rgb(38, 72, 38);
 }
