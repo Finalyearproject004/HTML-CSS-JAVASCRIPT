@@ -15,7 +15,7 @@
 /***************
 *General Styles
 ****************/
-
+@import "bootstrap";
 .primary-color{
 	color:rgb(15,108,107) !important;
 }
@@ -43,10 +43,12 @@ body{
 	display: flex;
     flex-direction: column;
 }
-
-.header-wrapper,.footer-wrapper,.contents-wrapper{
+.header-wrapper{
+	margin-left: 20px;
+}
+.footer-wrapper,.contents-wrapper{
 	margin: 0 auto;
-	max-width: 800px;
+	width: 800px;
 }
 
 .contents-wrapper{
@@ -172,17 +174,35 @@ nav ul li{
 }
 
 .header-container{
-	display: flex;
 	align-items:flex-end;
 	justify-content: space-between;
 	margin: 0.4rem 0;
+	width: 100%;
 }
 
 #dropdown1{
 	// overflow: hidden;
 }
+.logo{
+    margin-right: 70px;
+	width: 300px;
+}
+.name{
+	width:700px;
+	text-decoration: none;
+}
+.name p{
+	margin-left: 200px;
+	text-decoration: none; 
+}
+.name h1{
+	font-family: 'Playfair Display', serif;
+	font-weight: bold;
+	color: black;
+	text-decoration: none; }
 
 .logo-name{
+	width:100%;
 	display: flex;
 	align-items:center;
 	margin-left: 2rem;
@@ -213,6 +233,7 @@ nav ul li{
 
 .logo-name .logo img{
 	width: 100px;
+	margin-right: 20px;
 }
 
 .header-links{
@@ -224,6 +245,7 @@ nav ul li{
 	cursor:pointer;
 	margin:0 0.75rem;
 	color: inherit;
+	float: right;
 }
 
 .header-links a:hover,.header-links a:focus{
@@ -792,4 +814,20 @@ footer .address{
 	.gallery-design .grid-item {
 		width: 25%;
 	}
+}
+.faculty-link{
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+.faculty-link a{
+	padding: 15px 15px;
+	color: black; 
+	text-decoration: none;
+	border-bottom: 5px solid transparent;
+}
+.faculty-link a:hover{
+	border-color: rgb(38, 72, 38);
+}
+#active{
+	border-bottom: 5px solid rgb(38, 72, 38);
 }
