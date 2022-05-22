@@ -18,29 +18,27 @@
         <!-- header -->
         <div class="header-wrapper">
             <div class="header-container">
-                <div>
+                <div style="width: 100%;">
                     <div class="logo-name">
                         <div class="logo">
-                            <a href="index.html" title=""><img src="image/logo.jfif" alt="logo" width="200px" height="80px"></a>
+                            <a href="index.html" title=""><img src="image/logo.jfif" alt="logo" width="200px" height="60px"></a>
                         </div>
                         <div class="name">
                             <a href="index.html" title="">
-                                <h5>Sobhasaria Group Of Institutions- (SGI)</h5>
-                                <h5 class="primary-color">Sikar Rajasathan</h5>
+                                <h1>Sobhasaria Group Of Institutions</h1>
+                                <p class="primary-color">Sikar Rajasathan</p>
                             </a>
                         </div>
+                        <div class="header-links">
+                            <a id="loc_icon" href="https://goo.gl/maps/97q6MwTPJJ7Fz9Tw6"                               data-content="c/o Block No.9 (IC Department), Government Engineering College, Sector-28, Gandhinagar, Gujarat - 382028"
+                            ><i class="fa fa-map-marker fa-lg" aria-hidden="true"></i></a>
+                            <a id="phone_icon" href="#" data-toggle="popover" title="Phone No." data-content="+91-79-29750281"
+                               data-placement="bottom"><i class="fa fa-phone fa-lg" aria-hidden="true"></i></a>
+                            <a id="email_icon" href="mailto:info@secs.ac.in" >
+                                <i class="fa fa-envelope fa-lg" aria-hidden="true"></i></a>
+        
+                        </div>
                     </div>
-                </div>
-                <div class="header-links">
-                    <a id="loc_icon" href="#" data-toggle="popover" title="Address"
-                       data-content="c/o Block No.9 (IC Department), Government Engineering College, Sector-28, Gandhinagar, Gujarat - 382028"
-                       data-placement="bottom"><i class="fa fa-map-marker fa-lg" aria-hidden="true"></i></a>
-                    <a id="phone_icon" href="#" data-toggle="popover" title="Phone No." data-content="+91-79-29750281"
-                       data-placement="bottom"><i class="fa fa-phone fa-lg" aria-hidden="true"></i></a>
-                    <a id="email_icon" href="#" data-toggle="popover" title="Email"
-                       data-content="helpdesk@iiitvadodara.ac.in" data-placement="bottom"><i
-                            class="fa fa-envelope fa-lg" aria-hidden="true"></i></a>
-
                 </div>
             </div>
         </div>
@@ -122,7 +120,7 @@
                                             <li><a href="mtech_cse.html"> Power Systems</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="phd.html">MBA</a></li>
+                                    <li><a href="mba.html">MBA</a></li>
                                     <li><a href="pdf/academic_calendar_autumn_2015_16.pdf">Academic Calender</a></li>
 
                                 </ul>
@@ -156,7 +154,16 @@
                                     <li><a href="invited_talks.html">Invited Talks</a></li>
                                 </ul>
                             </li>
-                            <li><a href="career.html">Career</a></li>
+                            <li>
+                                <a href="career.html" class="dropdown-toggle" data-toggle="dropdown">Career<b
+                                        class="caret"></b></a>
+                                <ul class="dropdown-menu multi-level">
+                                    <li><a href="tpc.html">Training and Placement</a></li>
+                                    <li><a href="campus_placemnet.html">Campus Placement</a></li>
+                                    <li><a href="pcommitee.html">Placement Committee</a></li>
+                                </ul>
+                            </li>
+    
                             <li class="active"><a href="gallery.html">Photo Gallery</a></li>
                         </ul>
                     </div>
@@ -196,7 +203,6 @@
     <!-- Announcements, Events, News -->
     <div class="widgets-wrapper">
         <div class="widgets-container">
-            <?php include 'hello.php'; ?>
             <!-- Edit this section for important announcements.-->
             <div class="alert alert-warning text-center">
              
@@ -360,7 +366,6 @@
     <!-- Footer -->
     <footer>
         <div class="footer-wrapper">
-            <span class="logo"><img src="img/IIITV_Logo_1x1_small.png" alt=""></span>
             <div class="row">
                 <div class="col-sm-4 address">
                     <strong>Address : </strong>Address:NH-52, Gokulpura,Sikar Rajasthan- 332001..
