@@ -9,13 +9,11 @@
 /*Grey:rgb(240,240,240)*/
 /*Green:rgb(163,169,72)*/
 /* wrapper-width:700px */
-@import "bootstrap/css/";
 
 
 /***************
 *General Styles
 ****************/
-@import "bootstrap";
 .primary-color{
 	color:rgb(15,108,107) !important;
 }
@@ -785,6 +783,7 @@ footer .address{
 		width: 100%;
 	}
 }
+
 
 @media (min-width: 768px){
 	.navbar-collapse.collapse {
