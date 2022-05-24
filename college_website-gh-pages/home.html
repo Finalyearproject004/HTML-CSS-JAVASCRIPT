@@ -12,6 +12,26 @@
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
     <link rel="stylesheet" href="css/new.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script>
+        $(document).ready(function(){
+            $(".dropdown").hover(function(){
+                var dropdownMenu = $(this).children(".dropdown-menu");
+                if(dropdownMenu.is(":visible")){
+                    dropdownMenu.parent().toggleClass("open");
+                }
+            });
+        });        
+        </script>
+        <style>
+            .dropdown:hover .dropdown-menu{
+                display: block;
+            }
+            .dropdown-menu{
+                margin-top: 0;
+            }
+        </style>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script> -->
 </head>
 <body>
     <!--header-->
@@ -25,15 +45,26 @@
                 </li>
             </ul>
         </div>
-        <div class="" id="menu-bar">
-            <ul class="nav d-inline-flex  px-md-2 py-md-2 ">
-                <ul class="nav  px-md-2 pt-2">
-                    <li class="nav-item">
-                        <a class="nav-link py-4" aria-current="page" href="#">Institute<i class="fa-solid fa-caret-down px-1"></i></a>
+        <div class="d-flex align-items-center" id="menu-bar">
+            <ul class="nav px-md-2 py-md-2 ">
+                <ul class="nav px-md-2 pt-2">
+                    <li class="nav-item dropdown d-flex align-items-center ">
+                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Institute</a>
+                    <div class="dropdown-menu">
+                        <a href="#" class="dropdown-item">Inbox</a>
+                        <a href="#" class="dropdown-item">Sent</a>
+                        <a href="#" class="dropdown-item">Drafts</a>
+                    </div>
                         
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link py-4" href="#">Academics<i class="fa-solid fa-caret-down px-1"></i></a>
+                    <li class="nav-item dropdown d-flex align-items-center">
+                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Messages</a>
+                    <div class="dropdown-menu">
+                        <a href="#" class="dropdown-item">Inbox</a>
+                        <a href="#" class="dropdown-item">Sent</a>
+                        <a href="#" class="dropdown-item">Drafts</a>
+                    </div>
+                        
                     </li>
                     <li class="nav-item">
                         <a class="nav-link py-4" href="#">People<i class="fa-solid fa-caret-down px-1"></i></a>
