@@ -48,99 +48,20 @@
 .fa-chevrons-right{
     color:white;
 }
-.packages .box-container{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 2rem;
+.copy{
+    font-size: 1.1rem;
+    color:rgb(2 38 81);
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+.dropdown-menu{
+    margin-top: 0;
+}
+.dropdown-menu a:hover{
+    background-color: rgb(190, 188, 188);
+}
+.dropmenu2{
+    float: left;
 }
 
-.packages .box-container .box{
-    flex: 1 1 30rem;
-    border-radius: .5rem;
-    overflow: hidden;
-    box-shadow: 0 1rem 2rem rgba(0, 0, 0, .1);
-}
-.packages .box-container .box img{
-    height: 25rem;
-    width: 100%;
-    object-fit: cover;
-
-}
-
-.packages .box-container .box .content{
-    padding: 2rem;
-}
-
-.packages .box-container .box .content h3{
-    font-size: 2rem;
-    color: #333;
-}
-
-.packages .box-container .box .content h3 i{
-    color: var(--orange);
-}
-
-.packages .box-container .box .content p{
-    font-size: 1.7rem;
-    color: #666;
-    padding: 1rem 0;
-}
-
-.packages .box-container .box .content .stars i{
-    font-size: 1.7rem;
-    color: var(--orange);
-}
-
-.packages .box-container .box .content .price{
-    font-size: 2rem;
-    color: #333;
-    padding-top: 1rem;
-}
-
-.packages .box-container .box .content .price span{
-    color: #666;
-    font-size: 1.5rem;
-    text-decoration: line-through;
-}
-.packages .box-container .box img{
-    height: 25rem;
-    width: 100%;
-    object-fit: cover;
-
-}
-
-.packages .box-container .box .content{
-    padding: 2rem;
-}
-
-.packages .box-container .box .content h3{
-    font-size: 2rem;
-    color: #333;
-}
-
-.packages .box-container .box .content h3 i{
-    color: var(--orange);
-}
-
-.packages .box-container .box .content p{
-    font-size: 1.7rem;
-    color: #666;
-    padding: 1rem 0;
-}
-
-.packages .box-container .box .content .stars i{
-    font-size: 1.7rem;
-    color: var(--orange);
-}
-
-.packages .box-container .box .content .price{
-    font-size: 2rem;
-    color: #333;
-    padding-top: 1rem;
-}
-
-.packages .box-container .box .content .price span{
-    color: #666;
-    font-size: 1.5rem;
-    text-decoration: line-through;
-}
