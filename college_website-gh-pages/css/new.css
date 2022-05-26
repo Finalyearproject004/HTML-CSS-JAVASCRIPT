@@ -19,6 +19,10 @@
 .min-box{
     background: white;
 }
+.border-new{
+    border-left:2px groove rgb(118, 116, 116);
+}
+
 .border{
     border:2px groove rgb(118, 116, 116);
     transition: background 1s ease-in-out;
