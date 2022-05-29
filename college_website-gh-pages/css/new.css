@@ -25,21 +25,6 @@
 
 .border{
     border:5px 10px 10px 5px solid rgb(255, 26, 26);
-    transition: background 1s ease-in-out;
-}
-.slide-bar{
-    height:500px;
-    width: 500px;
-    background-image:url(../image/poster2.jpg);
-    animation:slide 20s infinite linear;
-}
-@keyframes slide{
-
-    25%{background-image:url(../image/fn1.webp)};
-    35%{background-image:url(../image/fn4.jpg)};
-    50%{background-image:url(../image/fn2.jpg)};
-    70%{background-image:url(../image/tour6.jpg)};
-    80%{background-image:url(../image/students.webp)}
 }
 .border:hover{
     background:rgb(23, 65, 116);
@@ -122,3 +107,36 @@ header{
 .boxx >:nth-child(even){
     background-color:#fff;
 }
+.icon-section{
+    background-color:#eee;
+}
+.section{
+    display:grid;
+    grid-template-columns: 22% 22% 22% 22%;
+    padding: 50px 10px;
+    width: 1050px;
+    margin: auto;
+    justify-content:space-between;
+}
+.icon-bar{
+    display: block;
+    margin:0 auto;
+}
+.icon{
+    padding: 30px 30px;
+    border:2px solid gray;
+}
+.icon a{
+    color: black;
+}
+icon a:hover{
+    color:white;
+}
+.icon-bar{
+    border-bottom: 5px groove rgb(2 38 81);
+    width: 200px;
+    font-size: 1.4rem;
+    font-weight: bold
+}
+
+
