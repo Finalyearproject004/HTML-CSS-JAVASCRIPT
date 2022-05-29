@@ -24,8 +24,22 @@
 }
 
 .border{
-    border:2px groove rgb(118, 116, 116);
+    border:5px 10px 10px 5px solid rgb(255, 26, 26);
     transition: background 1s ease-in-out;
+}
+.slide-bar{
+    height:500px;
+    width: 500px;
+    background-image:url(../image/poster2.jpg);
+    animation:slide 20s infinite linear;
+}
+@keyframes slide{
+
+    25%{background-image:url(../image/fn1.webp)};
+    35%{background-image:url(../image/fn4.jpg)};
+    50%{background-image:url(../image/fn2.jpg)};
+    70%{background-image:url(../image/tour6.jpg)};
+    80%{background-image:url(../image/students.webp)}
 }
 .border:hover{
     background:rgb(23, 65, 116);
@@ -61,6 +75,8 @@
 }
 .dropdown-menu{
     margin-top: 0;
+    float: left;
+    display:flex;
 }
 .dropdown-menu a:hover{
     background-color: rgb(190, 188, 188);
@@ -68,4 +84,41 @@
 .dropmenu2{
     float: left;
 }
-
+.round{
+    border-radius: 30%;
+    font-size: 1.6rem;
+    margin: 10px 4px;
+}
+.grid-item{
+    width: 100%;
+    padding: 0px 0px;
+}
+.grid-box {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    gap: 20px;
+}
+.grid-box > div {
+    background-color:#eee;
+    padding : 1em 2em;
+    color: black;
+}
+.grid-box >:nth-child(even){
+    background-color:#fff;
+}
+.boxx{
+    display: grid;
+    gap: 3px;
+    grid-template-areas: "header";
+}
+header{
+    grid-area: header;
+}
+.boxx >div {
+    background-color: #eee;
+    padding:1em 2em;
+    color: black;
+}
+.boxx >:nth-child(even){
+    background-color:#fff;
+}

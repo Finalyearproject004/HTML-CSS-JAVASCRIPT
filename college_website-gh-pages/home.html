@@ -40,31 +40,47 @@
         <div class="d-flex align-items-center" id="menu-bar">
             <ul class="nav px-md-2 py-md-2 ">
                 <ul class="nav px-md-2 pt-2">
-                    <li class="nav-item dropdown d-flex align-items-center ">
+                    <li class="nav-item dropdown multi-level d-flex align-items-center ">
                         <a href="#" class="nav-link dropdown-toggle py-4" data-toggle="dropdown">Institute</a>
-                    <div class="dropdown-menu">
-                        <a href="about.html" class="dropdown-item">About Us</a>
-                        <a href="directors_message.html" class="dropdown-item">Director's Message</a>
-                        <a href="bog.html" class="dropdown-item">Board of Governors</a>
-                        <a href="society_members.html" class="dropdown-item">Society Members</a>
-                        <a href="academic_council.html" class="dropdown-item">Academic Council</a>
-                        <a href="finance_committee.html" class="dropdown-item">Finance Committee</a>
-                        <a href="academic_council.html" class="dropdown-item">RTI</a>
-                        <a href="https://meet.google.com/sga-voux-ixw" class="dropdown-item">MOU</a>
-                        <a href="" class="dropdown-item">Linkages</a>
-                    </div>
-                        
+                    <ul class="dropdown-menu">
+                       <li> <a href="about.html" class="dropdown-item">About Us</a></li>
+                        <li><a href="directors_message.html" class="dropdown-item">Director's Message</a></li>
+                        <li><a href="bog.html" class="dropdown-item">Board of Governors</a></li>
+                        <li><a href="society_members.html" class="dropdown-item">Society Members</a></li>
+                        <li><a href="academic_council.html" class="dropdown-item">Academic Council</a></li>
+                        <li><a href="finance_committee.html" class="dropdown-item">Finance Committee</a></li>
+                        <li> <a href="academic_council.html" class="dropdown-item">RTI</a></li>
+                        <li><a href="https://meet.google.com/sga-voux-ixw" class="dropdown-item">MOU</a></li>
+                        <!-- <a href="" class="dropdown-item">Linkages</a> -->
+                        <li class=" dropdown-submenu d-flex align-items-center">
+                            <a href="#" class="dropdown-toggle  nav-link" data-toggle="dropdown">Linkages</a>
+                            <ul class="dropdown-menu side">
+                                <li><a href="linkages/da-iict.html">DA-IICT</a></li>
+                                <li><a href="linkages/gsfc.html">GSFC</a></li>
+                                <li><a href="linkages/germi.html">GERMI</a></li>
+                                <li><a href="linkages/tcs.html">TCS</a></li>
+                            </ul>
+                        </li>
+                    </ul>
                     </li>
                     <li class="nav-item dropdown d-flex align-items-center">
                         <a href="#" class="nav-link dropdown-toggle py-4" data-toggle="dropdown">Messages</a>
-                    <div class="dropdown-menu">
-                        
-                        <a href="#" class="dropdown-item">Bachelor's</a>
-                        <a href="#" class="dropdown-item">Master's</a>
-                        <a href="#" class="dropdown-item">Post Graduation</a>
-                        <a href="mba.html" class="dropdown-item">MBA</a>
-                        <a href="#" class="dropdown-item">Academic Calender</a>
-                    </div>
+                    <ul class="dropdown-menu">
+                        <li class=" dropdown-submenu d-flex align-items-center">
+                            <a href="#" class="dropdown-toggle  nav-link" data-toggle="dropdown">Bachelor's</a>
+                            <ul class="dropdown-menu side">
+                                <li><a href="linkages/da-iict.html"></a></li>
+                                <li><a href="linkages/gsfc.html">GSFC</a></li>
+                                <li><a href="linkages/germi.html">GERMI</a></li>
+                                <li><a href="linkages/tcs.html">TCS</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#" class="dropdown-item">Bachelor's</a></li>
+                        <li><a href="#" class="dropdown-item">Master's</a></li>
+                        <li><a href="#" class="dropdown-item">Post Graduation</a></li>
+                        <li><a href="mba.html" class="dropdown-item">MBA</a></li>
+                        <li><a href="#" class="dropdown-item">Academic Calender</a></li>
+                    </ul>
                     </li>
                     <li class="nav-item dropdown d-flex align-items-center">
                         <a href="#" class="nav-link dropdown-toggle py-4" data-toggle="dropdown">Admission</a>
@@ -102,7 +118,7 @@
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link py-4" href="#">Photo Gallery</a>
+                        <a class="nav-link py-4" href="gallery.html">Photo Gallery</a>
                     </li>
             </ul>
         </div>
@@ -140,13 +156,34 @@
                 <p><b>Placement's</b><br> Sobhasaria Group of Institutions has a focused Training & Placement Cell.</p>
             </div>
         </div>
-        </div>
-    </div>
     <div class="container my-4 text-center">
         <h2>Our Institutes</h2>
         <p class="fs-4 fw-bold">Sobhasaria Group of Institutions is one of the best technical institutes of Rajasthan, an Educational Venture of Rupa & Co. Kolkata emerged as an oasis among the dunes of Rajasthan. Sobhasaria Group of Institutions is one of the best technical institutes of Rajasthan where students of different states come to shape their careers in technology and management. It has state-of-the-art infrastructure with four-storied fully air-conditioned Central Library and Central Computer Centre, 37 acres lush green Wi-Fi enabled the campus to let its students live in an education conducive atmosphere that keeps them the most comfortable and enthusiastic while learning and provides them a glimpse of glorious life they can win for themselves. The experienced faculty members at Sobhasaria, with their industrial, academic and research skills inspire the students to move ahead in life with a winning attitude and make them industrial ready and expert at their workplace.</p>
-    
     </div>
+    
+        </div>
+    </div>
+    <div class=" container grid-box">
+        <div>
+            We've only specified column tracks so far, yet rows are being created to hold our content. This is an example of the explicit versus the implicit grid. The explicit grid is the one that you create using grid-template-columns or grid-template-rows. The implicit grid is created when content is placed outside of that grid, such as into our rows.
+        </div>
+        <div>
+            You'll now get three 1fr tracks just as before. The first value passed to the repeat() function specifies the number of times you want the listing to repeat, while the second value is a track listing, which may be one or more tracks that you want to repeat.
+        </div>
+        <div>
+            You'll now get three 1fr tracks just as before. The first value passed to the repeat() function specifies the number of times you want the listing to repeat, while the second value is a track listing, which may be one or more tracks that you want to repeat.
+        </div>
+        <div>
+            You'll now get three 1fr tracks just as before. The first value passed to the repeat() function specifies the number of times you want the listing to repeat, while the second value is a track listing, which may be one or more tracks that you want to repeat.
+        </div>
+        <div>
+            You'll now get three 1fr tracks just as before. The first value passed to the repeat() function specifies the number of times you want the listing to repeat, while the second value is a track listing, which may be one or more tracks that you want to repeat.
+        </div>
+        <div>
+            You'll now get three 1fr tracks just as before. The first value passed to the repeat() function specifies the number of times you want the listing to repeat, while the second value is a track listing, which may be one or more tracks that you want to repeat.
+        </div>
+        </div>
+        
     <div class="container-fluid px-5">
         <div class="row mx-5 my-3  justify-content-center">
             <div class="col-md-6">
@@ -269,6 +306,17 @@
             </div>
         </div>
     </div>
+    <!--even odd-->
+    <div class=" container boxx">
+        <div>Bachelor of Computer Application is a three-year undergraduate degree course</div>
+        <div><h5>BCA College in Sikar</h5></div>
+        <div>Bachelor of Computer Application is a three-year undergraduate degree course</div>
+        <div><h5>BCA College in Sikar</h5></div>
+        <div>Bachelor of Computer Application is a three-year undergraduate degree course</div>
+        <div><h5>BCA College in Sikar</h5></div>
+        <div>Bachelor of Computer Application is a three-year undergraduate degree course</div>
+        <div><h5>BCA College in Sikar</h5></div>
+    </div>
     <!--second mid-->
     <div class="container-fluid px-5">
         <div class="row" style="margin: 30px 200px;">
@@ -282,7 +330,8 @@
                          </div></div>
                      </div>
                      <div class="col-md-4  px-2">
-                         <div class="border"> <img src="image/poster.jpg" class="" width="100%" alt="">
+                         <div class="border">
+                            <img src="image/poster.jpg" class="" width="100%" alt="">
                              <div class="text-center py-3 px-3">
                                  <p><b>OUR TEACHERS GET AWARDED </b></p>
                                  <p>Its proximity to the coal fields of Pennsylvania and to the great markets of New York and Philadelphia, and its excellent transportation facilities by rail and by water, have promoted the development of its manufactures.</p>
@@ -324,11 +373,11 @@
             <div class="col-md-3 px-3 ">
                 <h4>Contect Us</h4><br>
                 <div >
-                <a href="" class="text-white px-2"><i class="fa-brands fa-facebook-square fa-2x"></i></a>    
-                <a href="" class="text-white px-2"><i class="fa-brands fa-instagram fa-2x"></i></i></a>    
-                <a href="" class="text-white px-2"><i class="fa-brands fa-twitter fa-2x"></i></a>    
-                <a href="" class="text-white px-2"><i class="fa-brands fa-linkedin fa-2x"></i></a>    
-                <a href="" class="text-white px-2"><i class="fa-brands fa-youtube fa-2x"></i></a>    
+                <a href="https://www.facebook.com/sobhasaria1999" class="text-white px-2"><i class="fa-brands fa-facebook-square fa-2x"></i></a>    
+                <a href="https://www.instagram.com/sobhasaria_college/" class="text-white px-2"><i class="fa-brands fa-instagram fa-2x"></i></i></a>    
+                <a href="https://twitter.com/sobhasaria1?lang=en" class="text-white px-2"><i class="fa-brands fa-twitter fa-2x"></i></a>    
+                <a href="https://in.linkedin.com/school/sobhasaria-engineering-college/" class="text-white px-2"><i class="fa-brands fa-linkedin fa-2x"></i></a>    
+                <a href="https://www.youtube.com/channel/UCY-M1NPKW4tvGrF9toS3SpQ" class="text-white px-2"><i class="fa-brands fa-youtube fa-2x"></i></a>    
                 </div><br>
                 <div class="py-3 contect">
                     <a href="http://" class="pe-3 text-white py-5"><i class="fa-solid fa-location-dot px-2"></i>Address:NH-52, Gokulpura,Sikar Rajasthan- 332001</a><br><br>
