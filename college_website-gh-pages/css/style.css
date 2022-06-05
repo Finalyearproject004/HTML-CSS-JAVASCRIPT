@@ -1,4 +1,4 @@
-/*************************************
+************************************
 ** Author: Mofid Ansari (ansarimofid)
 ** Website: http://ansarimofid.in
 ** Email: ansarimofid@gmail.com
@@ -914,6 +914,11 @@ footer .row{
 	letter-spacing: 1px;
 	color: #00acc1;
   }
+  .text-container{
+	  height: 20rem ;
+	  overflow-y: scroll;
+  }
+
   /* en b.tech invited card */
   /* library style */
   /* #Publications .img-shadow:before{
@@ -925,4 +930,13 @@ footer .row{
 	border-right: 40px solid transparent;
 	z-index:10;
   } */
-  
+
+  /* LIBRARY  */
+  /* .theme-black.theme-bg, .theme-black .theme-bg {
+    background-color: #000000;
+    color: #FFFFFF;
+}  
+.footer-cta__col-6 .button {
+    margin-top: 30px;
+}
+EWWDFNM
