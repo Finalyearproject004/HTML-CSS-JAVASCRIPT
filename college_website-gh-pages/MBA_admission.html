@@ -3,172 +3,111 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>SGI | M.tech. Admissions</title>
+    <title>college website</title>
     <!--Style Starts-->
     <link rel="icon" type="image/png" href="img/IIITV_Logo_1x1_small.png">
     <link href='https://fonts.googleapis.com/css?family=Oxygen:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/6d1a280c1a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
+    <link rel="stylesheet" href="css/new.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script>
+        $(document).ready(function(){
+            $(".dropdown").hover(function(){
+                var dropdownMenu = $(this).children(".dropdown-menu");
+                if(dropdownMenu.is(":visible")){
+                    dropdownMenu.parent().toggleClass("open");
+                }
+            });
+        });        
+        </script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script> -->
 </head>
-
 <body>
-    <!-- Start Your Body Code From here -->
-    <div class="wrapper">
-        <!-- header starts here -->
-        <header id="header" class="">
-            <!-- header -->
-            <div class="header-wrapper">
-                <div class="header-container">
-                    <div>
-                        <div class="logo-name">
-                            <div class="logo">
-                                <a href="index.html" title=""><img src="img/IIITV_Logo_1x1_small.png" alt="logo"></a>
-                            </div>
-                            <div class="name">
-                                <a href="index.html" title="">
-                                    <h5>Sobhasaria Group Of Institutions- (SGI)</h5>
-                                    <h5 class="primary-color">Sikar </h5>
-                                </a>
-                            </div>
-                        </div>
+    <!--header-->
+    <header>
+    <div class="py-2 bg-new text-center text-white"><h6>Sobhasaria Group of Institutions</h6></div>
+    <div class=" container-fluid d-md-flex ">
+        <div class="flex-md-grow-1">
+            <ul class="nav  px-md-2 py-md-2">
+                <li class="nav-item">
+                    <a class="nav-link  text-white  " href="#"><img src="image/logo.jfif" width="80px" height="80px" alt/></a>
+                </li>
+            </ul>
+        </div>
+        <div class="d-flex align-items-center" id="menu-bar">
+            <ul class="nav px-md-2 py-md-2 ">
+                <ul class="nav px-md-2 pt-2">
+                    <li class="nav-item dropdown d-flex align-items-center ">
+                        <a href="#" class="nav-link dropdown-toggle py-4" data-toggle="dropdown">Institute</a>
+                    <div class="dropdown-menu">
+                        <a href="about.html" class="dropdown-item">About Us</a>
+                        <a href="directors_message.html" class="dropdown-item">Chairman's Message</a>
+                        <a href="bog.html" class="dropdown-item">Board of Governors</a>
+                        <a href="society_members.html" class="dropdown-item">College Administration Society</a>
+                        <a href="academic_council.html" class="dropdown-item">HOD Council</a>
+                        <a href="finance_committee.html" class="dropdown-item">Anti Ragging Society</a>
+                        <a href="academic_council.html" class="dropdown-item">Alumini</a>
+                        <a href="https://meet.google.com/sga-voux-ixw" class="dropdown-item">Bodhitree</a>
+                        <a href="" class="dropdown-item">Linkages</a>
                     </div>
-                    <div class="header-links">
-                        <a id="loc_icon" href="#" data-toggle="popover" title="Address"
-                           data-content="NH-52, Gokulpura,Sikar- Rajasthan- 332021"
-                           data-placement="bottom"><i class="fa fa-map-marker fa-lg" aria-hidden="true"></i></a>
-                        <a id="phone_icon" href="#" data-toggle="popover" title="Phone No." data-content="+01572-222650-51-52-53,
-                        +8003595091 / 93"
-                           data-placement="bottom"><i class="fa fa-phone fa-lg" aria-hidden="true"></i></a>
-                        <a id="email_icon" href="#" data-toggle="popover" title="Email"
-                           data-content="info@secs.ac.in
-                           admissions@secs.ac.in" data-placement="bottom"><i
-                                class="fa fa-envelope fa-lg" aria-hidden="true"></i></a>
-    
+                        
+                    </li>
+                    <li class="nav-item dropdown d-flex align-items-center">
+                        <a href="#" class="nav-link dropdown-toggle py-4" data-toggle="dropdown">Messages</a>
+                    <div class="dropdown-menu">
+                        
+                        <a href="#" class="dropdown-item">Bachelor's</a>
+                        <a href="#" class="dropdown-item">Master's</a>
+                        <a href="#" class="dropdown-item">Post Graduation</a>
+                        <a href="mba.html" class="dropdown-item">MBA</a>
+                        <a href="#" class="dropdown-item">Academic Calender</a>
                     </div>
-                </div>
-            </div>
-            <nav>
-                <div class="navbar navbar-inverse navbar-custom" role="navigation">
-                    <div class="container">
-                        <div class="navbar-header">
-                            <button type="button" class="navbar-toggle" data-toggle="collapse"
-                                    data-target=".navbar-collapse">
-                                <span class="sr-only">Toggle navigation</span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                            </button>
+                    </li>
+                    <li class="nav-item dropdown d-flex align-items-center">
+                        <a href="#" class="nav-link dropdown-toggle py-4" data-toggle="dropdown">Admission</a>
+                        <div class="dropdown-menu">
+                            <a href="btech_admission.html" class="dropdown-item">B.Tech</a>
+                            <a href="mtech_admission.html" class="dropdown-item">M.Tech</a>
+                            <a href="bbbb.html" class="dropdown-item">BA/BSC/BCOM/BCA/BBA</a>
+                            <a href="phd_admission.html" class="dropdown-item">Ph.D</a>
                         </div>
-                        <div class="collapse navbar-collapse">
-                            <ul class="nav navbar-nav">
-                                <li class="">
-                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Institute <b
-                                            class="caret"></b></a>
-                                    <ul class="dropdown-menu multi-level">
-                                        <li class=""><a href="about.html">About</a></li>
-                                        <li><a href="directors_message.html">Director's Message</a></li>
-                                        <li><a href="bog.html">Board of Governors</a></li>
-                                        <li><a href="society_members.html">Society Members</a></li>
-                                        <li><a href="academic_council.html">Academic Council</a></li>
-                                        <li><a href="finance_committee.html">Finance Committee</a></li>
-                                        <li><a href="rti.html">RTI</a></li>
-                                        <li><a href="pdf/MOU.pdf">MOU</a></li>
-                                        <li class="dropdown-submenu">
-                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Linkages</a>
-                                            <ul class="dropdown-menu">
-                                                <li><a href="linkages/da-iict.html">DA-IICT</a></li>
-                                                <li><a href="linkages/gsfc.html">GSFC</a></li>
-                                                <li><a href="linkages/germi.html">GERMI</a></li>
-                                                <li><a href="linkages/tcs.html">TCS</a></li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Academics <b
-                                            class="caret"></b></a>
-                                    <ul class="dropdown-menu multi-level">
-                                        <li class="dropdown-submenu">
-                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Bachelor's </a>
-                                            <ul class="dropdown-menu">
-                                                <li class="dropdown-submenu">
-                                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">B.Tech</a>
-                                                    <ul class="dropdown-menu">
-                                                        <li><a href="btech_cse.html">Computer Engineering</a></li>
-                                                        <li><a href="btech_cse.html">Civil Engineering</a></li>
-                                                        <li><a href="btech_cse.html">Mechanical Engineering</a></li>
-                                                        <li><a href="btech_cse.html">Electronics Engineering</a></li>
-                                        
-                                                    </ul>
-                                                </li>
-                                                <li><a href="btech_cse.html">Bachelor of Arts</a></li>
-                                                <li><a href="btech_cse.html">Bachelor of Science</a></li>
-                                                <li><a href="btech_cse.html">Bachelor of Commerce</a></li>
-                                                <li><a href="btech_cse.html">Bachelor of Laws</a></li>
-                                
-                                            </ul>
-                                        </li>
-                                        <li class="dropdown-submenu">
-                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Master's</a>
-                                            <ul class="dropdown-menu">
-                                                <li><a href="mtech_cse.html">Computer Engineering</a></li>
-                                                <li><a href="mtech_cse.html"> Renewable Energy</a></li>
-                                                <li><a href="mtech_cse.html"> Power Systems</a></li>
-                                            </ul>
-                                        </li>
-                                        </li>
-                                        <li class="dropdown-submenu">
-                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Post Graduation</a>
-                                            <ul class="dropdown-menu">
-                                                <li><a href="mtech_cse.html">Bachelor of Arts</a></li>
-                                                <li><a href="mtech_cse.html"> Renewable Energy</a></li>
-                                                <li><a href="mtech_cse.html"> Power Systems</a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="phd.html">MBA</a></li>
-                                        <li><a href="pdf/academic_calendar_autumn_2015_16.pdf">Academic Calender</a></li>
-    
-                                    </ul>
-                                </li>
-                                <li>
-                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Admission <b
-                                            class="caret"></b></a>
-                                    <ul class="dropdown-menu multi-level">
-                                        <li><a href="btech_admission.html">B.Tech</a></li>
-                                        <li><a href="mtech_admission.html">M.Tech</a></li>
-                                        <li><a href="MBA_admission.html">MBA</a></li>
-                                        <li><a href="bbbb.html">BA/BSC/B.COM/BCA</a></li>
-                                        <li><a href="phd_admission.html">Ph.D</a></li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">People <b class="caret"></b></a>
-                                    <ul class="dropdown-menu multi-level">
-                                        <li><a href="faculty.html">Faculty</a></li>
-                                        <li><a href="visiting_faculty.html">Visiting Faculty</a></li>
-                                        <li><a href="staff.html">Staff</a></li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">More <b
-                                            class="caret"></b></a>
-                                    <ul class="dropdown-menu multi-level">
-                                        <li><a href="faq.html">FAQs</a></li>
-                                        <li><a href="student_corner.html">Student's Corner</a></li>
-                                        <li><a href="http://moodle.iiitv.ac.in" target="_blank">Moodle</a></li>
-                                        <li><a href="library.html">Library</a></li>
-                                        <li><a href="invited_talks.html">Invited Talks</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="career.html">Career</a></li>
-                                <li class="active"><a href="gallery.html">Photo Gallery</a></li>
-                            </ul>
+                    </li>
+                    <li class="nav-item dropdown d-flex align-items-center">
+                        <a class="nav-link dropdown-toggle py-4" data-toggle="dropdown" href="#">People</a>
+                        <div class="dropdown-menu">
+                            <a href="Faculty.html" class="dropdown-item">Faculty</a>
+                            <a href="visiting_faculty.html" class="dropdown-item">Visiting Faculty</a>
+                            <a href="staff.html" class="dropdown-item">Staff</a>
+                            <a href="otherstaff.html" class="dropdown-item">Other Staff</a>
                         </div>
-                        <!--/.nav-collapse -->
-                    </div>
-                </div>
-            </nav>
-        </header>
+                    </li>
+                    <li class="nav-item dropdown d-flex align-items-center">
+                        <a class="nav-link dropdown-toggle py-4" data-toggle="dropdown" href="#">More</a>
+                        <div class="dropdown-menu">
+                            <a href="faq.html" class="dropdown-item">FAQs</a>
+                            <a href="student_corner.html" class="dropdown-item">Student Corner</a>
+                            <a href="libary" class="dropdown-item">Libary</a>
+                            <a href="invited_talks.html" class="dropdown-item">Invited Talks</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown d-flex align-items-center">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" py-4" href="#">Career</a>
+                        <div class="dropdown-menu">
+                            <a href="tpc.html" class="dropdown-item">Training and Placement</a>
+                            <a href="campus_placemnet.html" class="dropdown-item">Campus and Placement</a>
+                            <a href="placement_commiti.html" class="dropdown-item">Placement Committee</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link py-4" href="#">Photo Gallery</a>
+                    </li>
+            </ul>
+        </div>
+    </div>
+</header>
         <!-- /header -->
         <!-- Content wrapper -->
         <div class="contents-wrapper">
