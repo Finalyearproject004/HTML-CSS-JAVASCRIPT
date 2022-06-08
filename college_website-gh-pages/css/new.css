@@ -232,18 +232,8 @@ icon a:hover{
     font-size: 1.4rem;
     font-weight: bold
 }
-.bg-blue{
-    background:linear-gradient(45deg,rgb(115, 160, 215),white);
-}
-.text-blue{
-    color:rgb(2 38 81);
-}
-.our-links{
-    font-size: 1.7rem;
-    width: 500px;
-    margin: auto;
-}
 
+<<<<<<< HEAD
 /* **************
 *Wrappers
 ****************/
@@ -383,3 +373,6 @@ html, body {
     width: 10%;
 >>>>>>> parent of 85753cf (newww)
 }
+=======
+
+>>>>>>> parent of a86bcc2 (header)
