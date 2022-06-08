@@ -180,4 +180,138 @@
 	height : 400px;
 }
 
+/* **************
+*Wrappers
+****************/
+/* 
+.wrapper{
+	min-height: 100vh;
+	display: flex;
+    flex-direction: column;
+}
+.header-wrapper{
+	margin-left: 20px;
+}
+.footer-wrapper,.contents-wrapper{
+	margin: 0 auto;
+	width: 800px;
+}
 
+.contents-wrapper{
+	margin-top: 3rem;
+	margin-bottom: 2rem;
+	flex:1;
+	line-height: 1.5;
+	font-size: 16px;
+}
+
+.contents-wrapper .content{
+	padding-left: 3rem;
+	padding-right: 3rem;
+}
+
+
+
+/****************
+ * Faculty Style
+ ***************/
+
+ /* .faculty-list .list-group .list-group-item >h3{
+	margin-bottom: 2rem;
+}
+
+
+.list-group .list-group-item >.row>div:first-child{
+	overflow: hidden;
+}
+
+.faculty-list .list-group .list-group-item{
+	padding: 2rem;
+}
+
+.career .list-group .list-group-item,
+.visiting-faculty .list-group .list-group-item,.staff-members .list-group .list-group-item{
+	padding: 2rem;
+}
+
+.table > tbody > tr > td {
+	vertical-align: middle;
+}
+
+.carousel-items{
+	overflow: hidden;
+	border: 3px solid rgb(15,108,107);
+	border-bottom: 0;
+	border-top: 0;
+} */
+ */
+ /* news headinds */
+ body{background: #eee}.news{width: 160px}.news-scroll a{text-decoration: none}.dot{height: 6px;width: 6px;margin-left: 3px;margin-right: 3px;margin-top: 2px !important;background-color: rgb(207,23,23);border-radius: 50%;display: inline-block}
+
+ .carsoul img{
+	height:80vh;
+	width:40%;
+}
+ .carsoul{
+	height:80vh;
+	width:40%;
+}
+/* books note */
+.bksz img{
+	height:240px;
+	width:92%;
+}
+
+/* sign up library */
+.button {
+    display: inline-block;
+    color: #FFFFFF;
+    background-color: #0061AC;
+    font-size: 15px;
+    line-height: 1;
+    padding: 11px;
+}
+
+/* new test */
+.section-header--underlined {
+    border-bottom: 1px solid #000000;
+    margin-bottom: 20px;
+}
+.section-header {
+    /* display: -ms-flexbox; */
+    display: flex;
+    /* -ms-flex-wrap: wrap; */
+    flex-wrap: wrap;
+    /* -ms-flex-pack: justify; */
+    justify-content: space-between;
+    /* -ms-flex-align: end; */
+    align-items: flex-end;
+}
+*, *:after, *:before {
+    box-sizing: inherit;
+}
+/* *, ::after, ::before {
+    box-sizing: border-box;
+} */
+/* user agent stylesheet */
+/* div {
+    display: block;
+} */
+body {
+    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+    color: #000000;
+    /* background: #EDEDED; */
+}
+html, body {
+    /* box-sizing: border-box;
+    width: 100%;
+    overflow-x: hidden; */
+    -webkit-font-smoothing: antialiased;
+    /* -moz-osx-font-smoothing: grayscale; */
+}
+
+.student-corner img{
+	height: 25rem;
+	width: 100%;
+	margin: 0 !important;
+}
