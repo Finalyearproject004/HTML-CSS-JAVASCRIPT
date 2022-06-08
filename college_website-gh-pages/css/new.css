@@ -172,12 +172,76 @@
 	width : 700px;
 	height : 400px;
 }
-.item2{
-	background-color: #00acc1;
-	border: 2px solid black;
-	margin : 2px;
-	width : 700px;
-	height : 400px;
+.grid-box {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    gap: 20px;
+}
+.grid-box > div {
+    background-color:#eee;
+    padding : 1em 2em;
+    color: black;
+}
+.grid-box >:nth-child(even){
+    background-color:#fff;
+}
+.boxx{
+    display: grid;
+    gap: 3px;
+    grid-template-areas: "header";
+}
+header{
+    grid-area: header;
+}
+.boxx >div {
+    background-color: #eee;
+    padding:1em 2em;
+    color: black;
+}
+.boxx >:nth-child(even){
+    background-color:#fff;
+}
+.icon-section{
+    background-color:#eee;
+}
+.section{
+    display:grid;
+    grid-template-columns: 22% 22% 22% 22%;
+    padding: 50px 10px;
+    width: 1050px;
+    margin: auto;
+    justify-content:space-between;
+}
+.icon-bar{
+    display: block;
+    margin:0 auto;
+}
+.icon{
+    padding: 30px 30px;
+    border:2px solid gray;
+}
+.icon a{
+    color: black;
+}
+icon a:hover{
+    color:white;
+}
+.icon-bar{
+    border-bottom: 5px groove rgb(2 38 81);
+    width: 200px;
+    font-size: 1.4rem;
+    font-weight: bold
+}
+.bg-blue{
+    background:linear-gradient(45deg,rgb(115, 160, 215),white);
+}
+.text-blue{
+    color:rgb(2 38 81);
+}
+.our-links{
+    font-size: 1.7rem;
+    width: 500px;
+    margin: auto;
 }
 
 /* **************
@@ -236,6 +300,7 @@
 
 .table > tbody > tr > td {
 	vertical-align: middle;
+<<<<<<< HEAD
 }
 
 .carousel-items{
@@ -314,4 +379,7 @@ html, body {
 	height: 25rem;
 	width: 100%;
 	margin: 0 !important;
+=======
+    width: 10%;
+>>>>>>> parent of 85753cf (newww)
 }
