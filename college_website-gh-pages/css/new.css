@@ -15,7 +15,8 @@ header{
 }
 .logo{
     flex-grow: 1;
-    /* position:relative; */
+    margin:20px;
+    border-radius: 50%;
     top:50px;
     background:transparent;
 }
@@ -444,8 +445,6 @@ icon a:hover{
     font-size: 1.4rem;
     font-weight: bold
 }
-
-<<<<<<< HEAD
 /* **************
 *Wrappers
 ****************/
@@ -556,7 +555,7 @@ icon a:hover{
     padding: 11px;
 }
 
-/* new test */
+/* new twst library head bar of books*/
 .section-header--underlined {
     border-bottom: 1px solid #000000;
     margin-bottom: 20px;
@@ -593,16 +592,18 @@ html, body {
     -webkit-font-smoothing: antialiased;
     /* -moz-osx-font-smoothing: grayscale; */
 }
-
+/* student corener style here */
 .student-corner img{
 	height: 25rem;
 	width: 100%;
 	margin: 0 !important;
-=======
     width: 10%;
->>>>>>> parent of 85753cf (newww)
-}
-=======
 
+<<<<<<< HEAD
 >>>>>>> parent of a86bcc2 (header)
 >>>>>>> e75007837201c7bba670f5bf7d05710d4931ad34
+=======
+}
+
+
+>>>>>>> 48381f7e20d6c8ffd1b2a5a09c1fa6e5eedb27dd
