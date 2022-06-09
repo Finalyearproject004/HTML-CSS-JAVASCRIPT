@@ -10,22 +10,26 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: white;
-    padding: 0  70px;
+    color: black;
     transition: 0.6s;
 }
 .logo{
     flex-grow: 1;
-    position:relative;
-    top:65px;
+    /* position:relative; */
+    top:50px;
     background:transparent;
+}
+.boxed{
+    height:100px;
 }
 .menu ul li{
     float: left;
 }
 header .navigation{
-    position: relative;
+    position: absolute;
     line-height: 75px;
+    top: 60px;
+    left: 30%;
 }
 header .navigation .menu{
     position: relative;
@@ -37,6 +41,12 @@ header .navigation .menu{
     margin: 30px;
     font-size: 1em;
     padding: 25px 0;
+}
+.menu-item{
+    border-bottom: 5px solid transparent;
+}
+.menu-item:hover{
+    border-bottom: 5px solid linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(2,38,81,1) 68%);
 }
 .menu-item > a:hover{
     color: skyblue;
@@ -65,12 +75,13 @@ ul{
     box-shadow: 0 5px 25px rgb(0 0 0 /20%);
     pointer-events: all;
     transform: translateY(20px);
-    opacity: 0;
+    display:none;
+    transition: all 0.2s ease-in;
 }
 .menu-item:hover .sub-menu{
     pointer-events: all;
     transform: translateY(0px);
-    opacity: 1;
+    display:block;
 }
 .menu-item .sub-menu .sub-item{
     position: relative;
@@ -373,15 +384,100 @@ ul{
 	width : 700px;
 	height : 400px;
 }
-.item2{
-	background-color: #00acc1;
-	border: 2px solid black;
-	margin : 2px;
-	width : 700px;
-	height : 400px;
+.grid-box {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    gap: 20px;
+}
+.grid-box > div {
+    background-color:#eee;
+    padding : 1em 2em;
+    color: black;
+}
+.grid-box >:nth-child(even){
+    background-color:#fff;
+}
+.boxx{
+    display: grid;
+    gap: 3px;
+    grid-template-areas: "header";
+}
+header{
+    grid-area: header;
+}
+.boxx >div {
+    background-color: #eee;
+    padding:1em 2em;
+    color: black;
+}
+.boxx >:nth-child(even){
+    background-color:#fff;
+}
+.icon-section{
+    background-color:#eee;
+}
+.section{
+    display:grid;
+    grid-template-columns: 22% 22% 22% 22%;
+    padding: 50px 10px;
+    width: 1050px;
+    margin: auto;
+    justify-content:space-between;
+}
+.icon-bar{
+    display: block;
+    margin:0 auto;
+}
+.icon{
+    padding: 30px 30px;
+    border:2px solid gray;
+}
+.icon a{
+    color: black;
+}
+icon a:hover{
+    color:white;
+}
+.icon-bar{
+    border-bottom: 5px groove rgb(2 38 81);
+    width: 200px;
+    font-size: 1.4rem;
+    font-weight: bold
+}
+
+<<<<<<< HEAD
+/* **************
+*Wrappers
+****************/
+/* 
+.wrapper{
+	min-height: 100vh;
+	display: flex;
+    flex-direction: column;
+}
+.header-wrapper{
+	margin-left: 20px;
+}
+.footer-wrapper,.contents-wrapper{
+	margin: 0 auto;
+	width: 800px;
+}
+
+.contents-wrapper{
+	margin-top: 3rem;
+	margin-bottom: 2rem;
+	flex:1;
+	line-height: 1.5;
+	font-size: 16px;
+}
+
+.contents-wrapper .content{
+	padding-left: 3rem;
+	padding-right: 3rem;
 }
 
 
+<<<<<<< HEAD
 .min-box{
     background: white;
 }
@@ -397,3 +493,116 @@ ul{
     background:rgb(23, 65, 116);
     color: white;
 }
+=======
+
+/****************
+ * Faculty Style
+ ***************/
+
+ /* .faculty-list .list-group .list-group-item >h3{
+	margin-bottom: 2rem;
+}
+
+
+.list-group .list-group-item >.row>div:first-child{
+	overflow: hidden;
+}
+
+.faculty-list .list-group .list-group-item{
+	padding: 2rem;
+}
+
+.career .list-group .list-group-item,
+.visiting-faculty .list-group .list-group-item,.staff-members .list-group .list-group-item{
+	padding: 2rem;
+}
+
+.table > tbody > tr > td {
+	vertical-align: middle;
+<<<<<<< HEAD
+}
+
+.carousel-items{
+	overflow: hidden;
+	border: 3px solid rgb(15,108,107);
+	border-bottom: 0;
+	border-top: 0;
+} */
+ */
+ /* news headinds */
+ body{background: #eee}.news{width: 160px}.news-scroll a{text-decoration: none}.dot{height: 6px;width: 6px;margin-left: 3px;margin-right: 3px;margin-top: 2px !important;background-color: rgb(207,23,23);border-radius: 50%;display: inline-block}
+
+ .carsoul img{
+	height:80vh;
+	width:40%;
+}
+ .carsoul{
+	height:80vh;
+	width:40%;
+}
+/* books note */
+.bksz img{
+	height:240px;
+	width:92%;
+}
+
+/* sign up library */
+.button {
+    display: inline-block;
+    color: #FFFFFF;
+    background-color: #0061AC;
+    font-size: 15px;
+    line-height: 1;
+    padding: 11px;
+}
+
+/* new test */
+.section-header--underlined {
+    border-bottom: 1px solid #000000;
+    margin-bottom: 20px;
+}
+.section-header {
+    /* display: -ms-flexbox; */
+    display: flex;
+    /* -ms-flex-wrap: wrap; */
+    flex-wrap: wrap;
+    /* -ms-flex-pack: justify; */
+    justify-content: space-between;
+    /* -ms-flex-align: end; */
+    align-items: flex-end;
+}
+*, *:after, *:before {
+    box-sizing: inherit;
+}
+/* *, ::after, ::before {
+    box-sizing: border-box;
+} */
+/* user agent stylesheet */
+/* div {
+    display: block;
+} */
+body {
+    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+    color: #000000;
+    /* background: #EDEDED; */
+}
+html, body {
+    /* box-sizing: border-box;
+    width: 100%;
+    overflow-x: hidden; */
+    -webkit-font-smoothing: antialiased;
+    /* -moz-osx-font-smoothing: grayscale; */
+}
+
+.student-corner img{
+	height: 25rem;
+	width: 100%;
+	margin: 0 !important;
+=======
+    width: 10%;
+>>>>>>> parent of 85753cf (newww)
+}
+=======
+
+>>>>>>> parent of a86bcc2 (header)
+>>>>>>> e75007837201c7bba670f5bf7d05710d4931ad34
