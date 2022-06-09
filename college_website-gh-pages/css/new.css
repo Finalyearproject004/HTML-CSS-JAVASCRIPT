@@ -17,7 +17,7 @@ header{
     flex-grow: 1;
     margin:20px;
     border-radius: 50%;
-    top:50px;
+    top:60px;
     position: absolute;
     background:transparent;
 }
@@ -492,25 +492,6 @@ icon a:hover{
 	padding-right: 3rem;
 }
 
-
-<<<<<<< HEAD
-.min-box{
-    background: white;
-}
-.border-new{
-    border-left:2px groove rgb(118, 116, 116);
-}
-
-.border{
-    border:2px groove rgb(118, 116, 116);
-    transition: background 1s ease-in-out;
-}
-.border:hover{
-    background:rgb(23, 65, 116);
-    color: white;
-}
-=======
-
 /****************
  * Faculty Style
  ***************/
@@ -629,6 +610,12 @@ old css
 .pt-7{
     padding-top: 70px;
 }
+.name{
+    position:absolute;
+    color:white;
+    top: 259px;
+    left: 40%;
+}
 .logo-img{
     border-radius:20%
 }
@@ -645,7 +632,7 @@ old css
 .border{
     border:2px groove rgb(118, 116, 116);
     transition: background 1s ease-in-out;
-    border-radius: 5%;
+    /* border-radius: 5%; */
 }
 .border:hover{
     background:rgb(23, 65, 116);
