@@ -18,6 +18,7 @@ header{
     margin:20px;
     border-radius: 50%;
     top:50px;
+    position: absolute;
     background:transparent;
 }
 .boxed{
@@ -31,6 +32,9 @@ header .navigation{
     line-height: 75px;
     top: 60px;
     left: 30%;
+}
+.bg-blue{
+    background:linear-gradient(45deg,rgb(115, 160, 215),white);
 }
 header .navigation .menu{
     position: relative;
@@ -252,6 +256,19 @@ ul{
         color: black;
         padding: 10px 0;
 }
+/* new section */
+.bg-blue{
+    background:linear-gradient(45deg,rgb(115, 160, 215),white);
+}
+.text-blue{
+    color:rgb(2 38 81);
+}
+.our-links{
+    font-size: 1.7rem;
+    width: 500px;
+    margin: auto;
+}
+
 /****************
  * Directors Msg
 **************** */
@@ -599,11 +616,38 @@ html, body {
 	margin: 0 !important;
     width: 10%;
 
-<<<<<<< HEAD
->>>>>>> parent of a86bcc2 (header)
->>>>>>> e75007837201c7bba670f5bf7d05710d4931ad34
-=======
 }
-
-
->>>>>>> 48381f7e20d6c8ffd1b2a5a09c1fa6e5eedb27dd
+/* 
+old css
+*/
+.box{
+    background: linear-gradient(45deg, rgb(171, 169, 169), transparent);
+}
+.min-box{
+    background: white;
+}
+.pt-7{
+    padding-top: 70px;
+}
+.logo-img{
+    border-radius:20%
+}
+.border-section{
+    border:1px groove rgb(210, 203, 203);
+    border-radius: 3%;
+}
+.border-new{
+    border-left:4px groove rgb(118, 116, 116);
+}
+.border img{
+    border-radius: 5%;
+}
+.border{
+    border:2px groove rgb(118, 116, 116);
+    transition: background 1s ease-in-out;
+    border-radius: 5%;
+}
+.border:hover{
+    background:rgb(23, 65, 116);
+    color: white;
+}
