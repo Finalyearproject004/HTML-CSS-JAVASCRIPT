@@ -43,11 +43,11 @@ header .navigation .menu{
     list-style: none;
 }
 .menu-item > a{
-    margin-right: 30px;
     font-size: 1em;
     padding: 25px 0;
 }
 .menu-item{
+    margin-right: 30px;
     border-bottom: 5px solid transparent;
 }
 .menu-item:hover{
@@ -231,7 +231,7 @@ ul{
 }
 .contents-wrapper{
 	margin: 0 auto;
-	width: 800px;
+	/* width: 800px; */
 }
     q.contents-wrapper{
 	margin-top: 3rem;
@@ -247,8 +247,13 @@ ul{
 }
 .content {
     display: flex;
-    align-items: center;
-    height: 5rem;
+    /* align-items: center; */
+    /* height: 5rem; */
+	justify-content: center;
+}
+/* placement faculty */
+.contents{
+text-align: center;
 	justify-content: center;
 }
 .title{
@@ -294,14 +299,16 @@ text-align: center;
 
 .dir-detail{
 	text-align: center;
-	display: inline-block;
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
 	line-height: 1.6;
 }
 
 .dir-detail >img{
 	border-radius: 100%;
     border: 5px solid #F0F0F0;
-    margin-bottom: 1rem;
+    /* margin-bottom: 1rem; */
 }
 
 .dir-detail>div:nth-child(2){
