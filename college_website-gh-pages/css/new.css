@@ -13,6 +13,7 @@ header{
     color: black;
     transition: 0.6s;
 }
+
 .logo{
     flex-grow: 1;
     margin:20px;
@@ -103,6 +104,11 @@ ul{
 }
 .bg-new{
     background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(2,38,81,1) 68%);
+}
+.table .thead-dark tr th {
+    color: #fff;
+    background-color: #183b5e;
+    border-color: #454d55;
 }
 .menu-item .sub-menu .sub-item:hover{
     background: royalblue;
@@ -644,9 +650,6 @@ old css
 .border-new{
     border-left:4px groove rgb(118, 116, 116);
 }
-.border img{
-    border-radius: 5%;
-}
 .border{
     border:2px groove rgb(118, 116, 116);
     transition: background 1s ease-in-out;
@@ -655,4 +658,35 @@ old css
 .border:hover{
     background:rgb(23, 65, 116);
     color: white;
+}
+.contents-wrapper{
+	padding-left: 3rem;
+	padding-right: 3rem;
+}
+.contents-wrapper{
+	margin-top: 3rem;
+	margin-bottom: 2rem;
+	flex:1;
+	line-height: 1.5;
+	font-size: 16px;
+}
+.contents-wrapper{
+	margin: 0 auto;
+	width: 1000px;
+}
+/* .faculty-link{
+    display: inline-block;
+}
+.new-content{
+    align-items: center;
+    height: 5rem;
+    justify-content: center;
+}
+.top-margin{
+    margin-top: 40px;
+}
+.tpc{
+    background-image:url(../image/sport.jpg);
+    height:800px; */
+    margin-top: 200px;
 }
