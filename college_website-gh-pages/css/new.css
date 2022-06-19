@@ -34,8 +34,23 @@ header .navigation{
     top: 60px;
     left: 30%;
 }
-.bg-blue{
+.bg-move{
     background:linear-gradient(45deg,rgb(115, 160, 215),white);
+    background-size: cover;
+    animation: image 20s ease-in-out infinite;
+}
+@keyframes image{
+    0%{background-image: url(../image/schl.jpg);}
+    10%{background-image: url(../image/winner2.jpg);}
+    20%{background-image: url(../image/fest.jpg);}
+    30%{background-image: url(../image/principal.jpg);}
+    40%{background-image: url(../image/chairman.jpg);}
+    50%{background-image: url(../image/essar.jpg);}
+    60%{background-image: url(../image/ac1.jpg);}
+    70%{background-image: url(../image/247419578_304338217871995_756507733031176632_n.jpg);}
+    80%{background-image: url(../image/ac5.jpg);}
+    90%{background-image: url(../image/tour2.jpg);}
+    100%{background-image: url(../image/holi3.jpg);}
 }
 header .navigation .menu{
     position: relative;
@@ -74,7 +89,7 @@ ul{
 .menu-item .sub-menu{
     position: absolute;
     background: #f3f4f7;
-    top: 50px;
+    top: 80px;
     line-height: 40px;
     list-style: none;
     border-radius: 0 0 8px 8px;
@@ -280,6 +295,7 @@ text-align: center;
 }
 /* new section */
 .bg-blue{
+    /* background-image: url(../image/placmentc.png); */
     background:linear-gradient(45deg,rgb(115, 160, 215),white);
 }
 .text-blue{
@@ -674,7 +690,7 @@ old css
 	margin: 0 auto;
 	width: 1000px;
 }
-/* .faculty-link{
+.faculty-link{
     display: inline-block;
 }
 .new-content{
@@ -687,6 +703,49 @@ old css
 }
 .tpc{
     background-image:url(../image/sport.jpg);
-    height:800px; */
-    margin-top: 200px;
+    height:800px; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:relative;
+}
+.message{
+    top: 350px;
+    position: absolute;
+    left: 30%;
+    font-size: 60px;
+    font-weight:700;
+}
+.p-box{
+    top: 1000px;
+    margin: auto;
+    z-index: 2;
+    height: 600px;
+    width:800px;
+    border: 2px solid lightgrey;
+}
+.col-3{
+    padding: 0;
+    overflow: hidden;
+}
+.rti-image{
+    width: 350px;
+    margin:auto;
+    height: 280px;
+}
+.placement_news ul{
+    list-style:none;
+}
+.placement_news ul li{
+    line_height: 60px;
+    margin: 10px 20px;
+    font-size:20px;
+    font-weight: 600;
+}
+.placement_news i{
+    float:left;
+}
+.heading{
+    text-align: center;
+    margin: 40px 0;
+    padding: 30px 0;
 }
