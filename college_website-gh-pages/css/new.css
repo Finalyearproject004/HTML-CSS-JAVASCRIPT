@@ -37,20 +37,21 @@ header .navigation{
 .bg-move{
     background:linear-gradient(45deg,rgb(115, 160, 215),white);
     background-size: cover;
+    height:320px;
     animation: image 20s ease-in-out infinite;
 }
 @keyframes image{
-    0%{background-image: url(../image/schl.jpg);}
-    10%{background-image: url(../image/winner2.jpg);}
-    20%{background-image: url(../image/fest.jpg);}
-    30%{background-image: url(../image/principal.jpg);}
-    40%{background-image: url(../image/chairman.jpg);}
-    50%{background-image: url(../image/essar.jpg);}
-    60%{background-image: url(../image/ac1.jpg);}
-    70%{background-image: url(../image/247419578_304338217871995_756507733031176632_n.jpg);}
-    80%{background-image: url(../image/ac5.jpg);}
-    90%{background-image: url(../image/tour2.jpg);}
-    100%{background-image: url(../image/holi3.jpg);}
+    0%{background-image: url(../image/p1.jpg);}
+    10%{background-image: url(../image/p2\ \(9\).webp);}
+    20%{background-image: url(../image/p2\ \(1\).webp);}
+    /* 30%{background-image: url(../image/p2\ \(2\).jpg);} */
+    40%{background-image: url(../image/p2\ \(2\).webp);}
+    50%{background-image: url(../image/p2\ \(3\).webp);}
+    /* 60%{background-image: url(../image/p2\ \(4\).webp);} */
+    70%{background-image: url(../image/p2\ \(5\).webp);}
+    80%{background-image: url(../image/p2\ \(6\).webp);}
+    90%{background-image: url(../image/p2\ \(7\).webp);}
+    100%{background-image: url(../image/p2\ \(8\).webp);}
 }
 header .navigation .menu{
     position: relative;
@@ -707,6 +708,12 @@ old css
     background-repeat: no-repeat;
     background-size: cover;
     position:relative;
+    /* animation: bg-image 10s ease-in-out infinite; */
+}
+@keyframes bg-image{
+    20%{background-image: url(../image/p2\ \(2\).jpg;);}
+    50%{background-image: url(../image/p2\ \(4\).webp);}
+    80%{background-image: url(../image/tour3.webp);}
 }
 .message{
     top: 350px;
