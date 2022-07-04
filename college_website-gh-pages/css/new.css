@@ -209,7 +209,7 @@ ul{
         background: none;
     }
     .menu-item .sub-menu .sub-item a:hover{
-        color: #3761de;
+        background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(2,38,81,1) 68%);
         transition: 0.3s;
     }
     .more .more-menu{
@@ -755,4 +755,8 @@ old css
     text-align: center;
     margin: 40px 0;
     padding: 30px 0;
+}
+ul.placement_p li:hover{
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(2,38,81,1) 68%);
+    color:white;
 }
